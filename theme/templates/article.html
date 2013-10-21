@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block stylesheets %}
+    {% assets filters="less", output="css/article.css", "less/article.less" %}
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}" />
+    {% endassets %}
+{% endblock stylesheets %}
+
+{% block title %}{{ article.title }}{% endblock title %}
+
+{% block body %}
+    <article>
+        <header class="article-header">
+            {% include "modules/article-header.html" %}
+        </header>
+        <section class="article-entry">
+            {{ article.content }}
+        </section>
+    </article>
+{% endblock body %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block stylesheets %}
+    {% assets filters="less", output="css/index.css", "less/index.less" %}
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}" />
+    {% endassets %}
+{% endblock stylesheets %}
+        
+{% block body %}
+    <header class="main-header">
+        {% include "modules/main-header.html" %}
+    </header>
+    <div class="main-index-div">
+        <section class="main-intro">
+            {% include "modules/main-intro.html" %}
+        </section>
+        <nav class="main-nav">
+            {% include "modules/main-toc.html" %}
+        </nav>
+    </div>
+{% endblock body %}
