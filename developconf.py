@@ -28,7 +28,7 @@ EXTRA_PATH_METADATA = {
     "extras/favicon.ico": {'path': "favicon.ico"},
 }
 DELETE_OUTPUT_DIRECTORY = True
-OUTPUT_RETENTION = (".git", ".git*")
+OUTPUT_RETENTION = (".git", ".git*", "README*")
 
 ARTICLE_URL = "{category}/{slug}.html"
 ARTICLE_SAVE_AS = ARTICLE_URL

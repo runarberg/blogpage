@@ -1,5 +1,6 @@
 *.py[cod]
 develop/
+publish/
 
 # temp files
 *~
