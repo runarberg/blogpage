@@ -11,15 +11,16 @@ Númer 1:
     $i^2 = -1$
 
 Númer 2:
-    Það er til tala sem heitir $\\tau = 2\\pi$ og er hlutfall milli ummáls
-    hrings og geisla (það er lengd línu frá miðju hrings út á enda).
+    Það er til tala sem heitir $\\tau = 2\\pi$ og er hlutfall milli
+    ummáls hrings og lengd línu frá miðju hans til enda (kölluð
+    geisli, eða radíus).
 
 Númer 3:
     Það eru til föll $\\cos x$ og $\\sin x$. Ímyndum okkur
     hring (svokallaðan einingarhring) sem hefur miðju á hnitunum
     $(0, 0)$ og geisla $1$. Nú ef við byrjum á þeim
     punkti á hringjaðrinum sem er lengst til hægri, þ.e. hnitunum
-    $(0, 1)$, og ferðumst $\\frac{x}{\\tau}$ hluta hrings
+    $(1, 0)$, og ferðumst $\\frac{x}{\\tau}$ hluta hrings
     meðfram jaðrinum, þá endum við á hnitunum $(\\cos x, \\sin x)$.
 
 Númer 5:
