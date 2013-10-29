@@ -27,4 +27,5 @@ sanngjarn, ekki satt?
 villt.
 
 .. html::
+   <div class="bar-chart wealth_display-results"></div>
    <script src="{filename}/scripts/wealth.js"></script>

@@ -11,9 +11,9 @@ var wealth = function (N, W, cycles) {
     var a, b, i, data, cycle, stake, pot, result;
 
     // create a cycles × W dataframe to hold the data
-    data = new Array(),
+    var data = new Array(),
         pairs = new Array();
-    for (i = 0; i < cycles; i++) {
+    for (i = 0; i <= cycles; i++) {
         data[i] = new Array();
     }
 
@@ -44,3 +44,18 @@ var wealth = function (N, W, cycles) {
     }
     return data;
 };
+
+var display_results = function() {
+    var container = d3.select("div.wealth_display-results");
+    var results = wealth(10, 100, 10)[10];
+    var x_lim = d3.scale.linear()
+        .domain([0, d3.max(results)])
+        .range(["0", "80%"]);
+    container.selectAll("div")
+        .data(results)
+        .enter().append("div")
+        .style("width", x_lim)
+        .text(function(d) { return d3.round(d, 2); });
+}
+
+display_results();
