@@ -32,3 +32,4 @@ villt.
    <div class="wealth_controls"></div>
    </div>
    <script src="{filename}/scripts/wealth.js"></script>
+   <script src="{filename}/scripts/wealth_display.js"></script>
