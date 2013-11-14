@@ -50,13 +50,13 @@ var display_wealth = function() {
     var yard = Wealth(N, W);
     var time = 0;
 
-    var col_height = 20;
+    var col_height = N > 80 ? 2 : 180/N;
 
     var chart = d3.select("div.wealth_display-results")
         .append("svg")
         .attr("class", "bar-chart")
         .attr("width", "100%")
-        .attr("height", col_height * (N+2))
+        .attr("height", col_height*N + 40)
         .append('g')
         .attr("transform", "translate(10,15)");
 
