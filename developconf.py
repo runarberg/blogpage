@@ -12,13 +12,13 @@ DATE_FORMATS = {
 }
 
 PLUGIN_PATH = "/home/alka/develop/pelican/pelican-plugins"
-PLUGINS = ["assets",]
+PLUGINS = ["assets", "html_rst_directive"]
 THEME = "theme"
 
 PATH = "contents/"
 ARTICLE_PATH = "articles/"
 OUTPUT_PATH = "develop/"
-STATIC_PATHS = ["extras/",]
+STATIC_PATHS = ["images/", "extras/", "scripts/"]
 EXTRA_PATH_METADATA = {
     "extras/robots.txt": {'path': "robots.txt"},
     "extras/humans.txt": {'path': "humans.txt"},
