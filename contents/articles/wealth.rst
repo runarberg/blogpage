@@ -5,6 +5,7 @@
 :date: 2013-10-26 14:32
 :category: Pælingar
 :slug: kapitalisk-audsofnun
+:template: wealth
 
 Við græðum öll á frjálsum viðskiptum ekki satt? Þegar tveir aðillar
 setjast við samningaborðið og skipta á milli sér góðæfum, þ.e. stunda
@@ -32,4 +33,4 @@ villt.
    <div class="wealth_controls"></div>
    </div>
    <script src="{filename}/scripts/wealth.js"></script>
-   <script src="{filename}/scripts/wealth_display.js"></script>
+
