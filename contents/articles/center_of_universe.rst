@@ -57,7 +57,14 @@ taugafrumna í heilanum mínum hafi verið með þeim hætti einbeitning á
 orðum kennarans lágmarkaðist. Það er heildin *ég* sem stjórna, frekar
 en einingarnar sem mynda mig.
 
-.. SVG mynd sem útskýrir
+.. html::
+   <figure>
+   <img src="{filename}/images/center_of_the_universe.svg"
+   width="640" height="400" alt="Tveir mögulegir heimar" />
+   <figcaption>Tveir mis-raunhæfir möguleikar á alheiminum. Þessi til
+   vinstri setur manninn í miðju alheimsins, þessi til hægri gerir ráð
+   fyrir að hlutir geti haft áhrif hvor á annan.
+   </figure>
 
 Þannig að það er sama hvort maður lítur þröngt eða vítt, á einingar
 eða heildir, maðurinn stjórnar í báðar áttir. Maðurinn er alltaf í
